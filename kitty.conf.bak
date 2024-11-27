@@ -1,4 +1,4 @@
-font_family Fira Code 
+font_family      JetBrainsMono Nerd Font Mono
 
 initial_window_width 900
 initial_window_height 600
@@ -6,3 +6,9 @@ remember_window_size no
 font_size 13
 
 include Bright_Lights.conf
+
+
+# BEGIN_KITTY_THEME
+# Catppuccin-Mocha
+include current-theme.conf
+# END_KITTY_THEME
