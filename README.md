@@ -13,6 +13,11 @@ Run the following command
 ```
 curl -sS https://starship.rs/install.sh | sh
 ```
+And add the following line to your `.zshrc` file
+
+```
+eval "$(starship init zsh)"
+```
 
 ### Set Nerd Font Icons
 
