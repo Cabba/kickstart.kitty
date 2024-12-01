@@ -36,3 +36,10 @@ To disable conda enc name (like `(base)`) use the following command
 ```
 conda config --set changeps1 false
 ```
+
+## Bonus
+
+Add the following to `.zshrc` to get a nice commit message:
+```
+alias yolo="git commit -m \"$(curl -s https://whatthecommit.com/index.txt)\""
+```
