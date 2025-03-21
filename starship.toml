@@ -1,6 +1,7 @@
 format="""
 $directory\
 $git_branch\
+$python\
 $character
 """
 
@@ -161,6 +162,7 @@ symbol = " "
 symbol = " "
 
 [python]
+format='via [(\($virtualenv\) )]($style)'
 symbol = " "
 
 [rlang]
