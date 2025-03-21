@@ -29,7 +29,7 @@ symbol = " "
 
 [directory]
 read_only = " 󰌾"
-style='purple bold'
+style='bold #d13b8c'
 
 [docker_context]
 symbol = " "
@@ -48,6 +48,7 @@ symbol = " "
 
 [git_branch]
 symbol = " "
+style="bold purple"
 
 [git_commit]
 tag_symbol = '  '
